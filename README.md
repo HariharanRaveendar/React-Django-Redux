@@ -1,5 +1,4 @@
-# Blog 
-
+# BLOG WEB APP 
 > Full stack Django/React/Redux app that uses token based authentication with Knox.
 
 ## Quick Start
@@ -13,13 +12,37 @@ python manage.py runserver
 
 # Run webpack (from root)
 npm run dev
-
-
 ```
+
+## ReactJS ( Frontend ) : 
+- Components where used
+    - HTML, CSS, Bootstrap, React-Bootstrap.
+    - Class Components, Redux, Axios
+
+## Django ( Backend ) : 
+- Django Rest API.
+- Class concept with Viewset. 
+- Knocs tokenization.
+
+## Require
+> NodeJs
+> Python, Django
+
+## Installation
+
+Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+sh
+npm i
+
+
+
 ### Description :
-     This is a Blog web app developed by using reactjs and Python Django Rest Framework.
-     Users can signup and login into the website.If they didn't signup they can see only the homepage.They should signin for Post the blog.Users can Post the Blogs,Edit and Delete the Posted their own Blogs.
-     I used reactjs as a front with html and bootstrap components.In reactjs,I used class components.Api calls and services are accessing by using axios package.
-     I used react redux for data ui binding.I would pass the props to redux reducer and the reducers has containing 2 states such as initial and action state.
-     For Backend i used Django rest framework and knocs tokenization is added with it.Token generate after the login of the user and delete after that user logout.Viewset concept is implemented in the class components in django views.
-     For storing purposes i used SQL Lite database.
+> This is a Blog web app developed by using reactjs and Python Django Rest Framework.
+> Users can signup and login into the website.If they didn't signup they can see only the homepage.They should signin for Post the blog.Users can Post the Blogs,Edit and Delete the Posted their own Blogs.
+> I used reactjs as a front with html and bootstrap components.In reactjs,I used class components.Api calls and services are accessing by using axios package.
+> I used react redux for data ui binding.I would pass the props to redux reducer and the reducers has containing 2 states such as initial and action state.
+> For Backend i used Django rest framework and knocs tokenization is added with it.Token generate after the login of the user and delete after that user logout.Viewset concept is implemented in the class components in django views.
+> For storing purposes i used SQL Lite database.
