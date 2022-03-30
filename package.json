@@ -13,7 +13,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^29.0.0",
     "@ckeditor/ckeditor5-react": "^3.0.2",
-    "axios": "^0.18.1",
+    "axios": "^0.21.2",
     "bootstrap": "^5.0.2",
     "crypto-js": "^4.0.0",
     "prop-types": "^15.7.2",
